@@ -1,0 +1,57 @@
+<tool id="monarch-phenotypes-for-disease" name="Pull Diseases from Phenotypes" version="0.1.0">
+    <requirements/>
+    <stdio>
+        <exit_code range="1:" />
+    </stdio>
+	<command><![CDATA[
+#set conditional = "%20" + str($conditional1) + "%20"
+#set prefix = "subject_closure:%22"
+#set suffix = "%22"
+#set inputString = ""
+#for inputFile in $input1
+  #set inputs = open(str($inputFile),'r').read().split(",")
+  #for input in $inputs
+    #if $inputString != ""
+      #set inputString = $inputString + $conditional
+    #end if
+    #set inputString = $inputString + $prefix + str($input).strip(' \t\n\r') + $suffix
+  #end for
+#end for
+
+curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=standard&indent=on&wt=csv&rows=100000&start=0&fl=subject,subject_label,relation,relation_label,object,object_label,evidence,evidence_label,source,is_defined_by,qualifier&facet=true&facet.mincount=1&facet.sort=count&json.nl=arrarr&facet.limit=25&facet.method=enum&csv.encapsulator=&csv.separator=%09&csv.header=true&csv.mv.separator=%7C&fq=($inputString)&fq=object_category:%22phenotype%22&fq=subject_category:%22disease%22&facet.field=subject_taxon_closure_label&facet.field=object_taxon_closure_label&q=*:*' | tail -n +2 > $output1
+	]]></command>
+	<inputs>
+	    <param  name="input1" type="data" format="tabular" multiple="true" label="Disease" />
+		<param  name="conditional1" type="select" multiple="false" display="radio" label="Conditional">
+			<option value="AND">and</option>
+			<option value="OR">or</option>
+		</param>
+    </inputs>
+    <outputs>
+	        <data name="output1" type="data" format="tabular" />
+    </outputs>
+	 <tests>
+         <test>
+             <param name="input1" value="disease.tsv"/>
+             <param name="conditional1" value="OR"/>
+             <output name="output1" file="phenotypes-for-disease.tsv"/>
+         </test>
+         <test>
+             <param name="input1" value="2-diseases-overlap.tsv"/>
+             <param name="conditional1" value="AND"/>
+             <output name="output1" file="phenotypes-for-diseases-intersection.tsv"/>
+         </test>
+         <test>
+             <param name="input1" value="2-diseases-overlap.tsv"/>
+             <param name="conditional1" value="OR"/>
+             <output name="output1" file="phenotypes-for-diseases-union.tsv"/>
+         </test>
+	 </tests>
+    <help><![CDATA[
+        Pulls data from monarch web services as TSV given a disease.
+		subject,subject_label,relation,relation_label,object,object_label,evidence,evidence_label,source,is_defined_by,qualifier
+    ]]></help>
+	<citations>
+		<citation type="doi">doi:10.5281/zenodo.56412</citation>
+    </citations>
+</tool>

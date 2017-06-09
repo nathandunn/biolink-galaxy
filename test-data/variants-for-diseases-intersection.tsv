@@ -1,0 +1,12 @@
+ClinVarVariant:29936	NM_012084.3(GLUD2):c.1492T>G (p.Ser498Ala)	NCBITaxon:9606	Homo sapiens	NCBIGene:2747	GLUD2	GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:19826450	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+OMIM:602544.0022	PARK2, EX5-6 DEL	NCBITaxon:9606	Homo sapiens	NCBIGene:5071	PARK2			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+ClinVarVariant:9726	m.3397A>G	NCBITaxon:9606	Homo sapiens	NCBIGene:4535	ND1	GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:7624338	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+OMIM:163890.0003	SNCA, TRIPLICATION	NCBITaxon:9606	Homo sapiens	NCBIGene:6622	SNCA			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:602544.0005	PARK2, EX3DEL	NCBITaxon:9606	Homo sapiens	NCBIGene:5071	PARK2			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+ClinVarVariant:56171	NM_015268.3(DNAJC13):c.2564A>G (p.Asn855Ser)	NCBITaxon:9606	Homo sapiens	NCBIGene:23317	DNAJC13	GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:24218364	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+OMIM:602544.0011	PARK2, ALA82GLU	NCBITaxon:9606	Homo sapiens	NCBIGene:5071	PARK2			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+dbSNP:rs34637584	rs34637584-A	NCBITaxon:9606	Homo sapiens	NCBIGene:120892	LRRK2			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:606463.0003	GBA, ASN370SER	NCBITaxon:9606	Homo sapiens	NCBIGene:2629	GBA			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:602544.0017	PARK2, ARG275TRP	NCBITaxon:9606	Homo sapiens	NCBIGene:5071	PARK2			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:602544.0014	PARK2, 1-BP DEL, 255A	NCBITaxon:9606	Homo sapiens	NCBIGene:5071	PARK2			OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+ClinVarVariant:225276	NM_198578.3(LRRK2):c.4321C>A (p.Arg1441Ser)	NCBITaxon:9606	Homo sapiens	NCBIGene:120892	LRRK2	GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:27111571	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct

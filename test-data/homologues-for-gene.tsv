@@ -1,0 +1,27 @@
+NCBIGene:716360	CAPN10	NCBITaxon:9544	Macaca mulatta	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:25801	GCA	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:10016	PDCD6	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:388743	CAPN8	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:841981	DEK1	NCBITaxon:3702	Arabidopsis thaliana	RO:HOM0000017	in orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:100379827	capn10	NCBITaxon:8364	Xenopus (Silurana) tropicalis	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:789674	CAPN10	NCBITaxon:9913	Bos taurus	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:825	CAPN3	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:824	CAPN2	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+MGI:1344392	Capn10	NCBITaxon:10090	Mus musculus	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:79747	ADGB	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:92291	CAPN13	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:823	CAPN1	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:726	CAPN5	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:11131	CAPN11	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:6650	CAPN15	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:607311	CAPN10	NCBITaxon:9615	Canis lupus familiaris	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:63834	Capn10	NCBITaxon:10116	Rattus norvegicus	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:440854	CAPN14	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:827	CAPN6	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:10753	CAPN9	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:23473	CAPN7	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:147968	CAPN12	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:570311	capn10	NCBITaxon:7955	Danio rerio	RO:HOM0000017	in orthology relationship with	ECO:0000080|ECO:0000031	phylogenetic evidence|protein BLAST evidence used in manual assertion	ZFIN:ZDB-PUB-030905-1	http://data.monarchinitiative.org/ttl/panther.ttl|http://data.monarchinitiative.org/ttl/zfin.ttl	direct
+NCBIGene:6717	SRI	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:100022544	CAPN10	NCBITaxon:13616	Monodelphis domestica	RO:HOM0000020	in 1 to 1 orthology relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct
+NCBIGene:553115	PEF1	NCBITaxon:9606	Homo sapiens	RO:HOM0000011	in paralogy relationship with	ECO:0000080	phylogenetic evidence		http://data.monarchinitiative.org/ttl/panther.ttl	direct

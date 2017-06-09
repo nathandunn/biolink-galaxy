@@ -1,0 +1,9 @@
+KEGG-path:map03440	Homologous recombination	RO:0002331	involved in	NCBIGene:675	BRCA2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+REACT:200794	Mus musculus biological processes	RO:0002331	involved in	NCBIGene:675	BRCA2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+REACT:216	DNA Repair	RO:0002331	involved in	NCBIGene:675	BRCA2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+REACT:115566	Cell Cycle	RO:0002331	involved in	NCBIGene:675	BRCA2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:map05219	Bladder cancer	RO:0002331	involved in	NCBIGene:11186	RASSF1				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:map05200	Pathways in cancer	RO:0002331	involved in	NCBIGene:11186	RASSF1				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:map05212	Pancreatic cancer	RO:0002331	involved in	NCBIGene:675	BRCA2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:map05200	Pathways in cancer	RO:0002331	involved in	NCBIGene:675	BRCA2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:map05223	Non-small cell lung cancer	RO:0002331	involved in	NCBIGene:11186	RASSF1				http://data.monarchinitiative.org/ttl/ctd.ttl	direct

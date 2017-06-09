@@ -1,0 +1,72 @@
+<tool id="monarch-phenopackets-for-disease" name="Pull Phenotypes as Phenopackets for Diseases" version="0.1.0">
+    <requirements/>
+    <stdio>
+        <exit_code range="1:"/>
+    </stdio>
+    <command><![CDATA[
+#set conditional = "%20" + str($conditional1) + "%20"
+#set prefix = "subject_closure:%22"
+#set suffix = "%22"
+#set inputString = ""
+#for inputFile in $input1
+  #set inputs = open(str($inputFile),'r').read().split(",")
+  #for input in $inputs
+    #if $inputString != ""
+      #set inputString = $inputString + $conditional
+    #end if
+    #set inputString = $inputString + $prefix + str($input).strip(' \t\n\r') + $suffix
+  #end for
+#end for
+
+curl -s 'https://monarchinitiative.org/phenopacket?q=*:*&fq=($inputString)&sfq=subject_category:%22variant%22&personality=variant_phenotype' > $output1
+	]]></command>
+    <inputs>
+        <param name="input1" type="data" format="tabular" multiple="true" label="Variant"/>
+        <param name="conditional1" type="select" multiple="false" display="radio" label="Conditional">
+            <option value="AND">and</option>
+            <option value="OR">or</option>
+        </param>
+    </inputs>
+    <outputs>
+        <data name="output1" type="data" format="json"/>
+    </outputs>
+    <tests>
+        <test>
+            <param name="input1" value="phenotype.tsv"/>
+            <param name="conditional1" value="OR"/>
+            <!--<output name="output1" file="phenotypes-for-variant.json"/>-->
+            <output name="output1">
+                <assert_contents>
+					<has_text text='phenopacket":{"phenotype_profile":[{"entity":"'/>
+                </assert_contents>
+            </output>
+        </test>
+        <test>
+            <param name="input1" value="2-phenotypes.tsv"/>
+            <param name="conditional1" value="AND"/>
+            <!--<output name="output1" file="phenotypes-for-variants-intersection.json"/>-->
+            <output name="output1">
+                <assert_contents>
+                    <has_text text='{"phenopacket":{"phenotype_profile":[{"entity":"'/>
+                </assert_contents>
+            </output>
+        </test>
+        <test>
+            <param name="input1" value="2-phenotypes.tsv"/>
+            <param name="conditional1" value="OR"/>
+            <!--<output name="output1" file="phenotypes-for-variants-union.json"/>-->
+            <output name="output1">
+                <assert_contents>
+                    <has_text text='{"phenopacket":{"phenotype_profile":[{"entity":"'/>
+                </assert_contents>
+            </output>
+        </test>
+    </tests>
+    <help><![CDATA[
+        Pulls phenopacket from data from monarch web services from one or more variants.
+		https://github.com/phenopackets/phenopacket-format/wiki/Getting-Started
+    ]]></help>
+    <citations>
+        <citation type="doi">doi:10.5281/zenodo.56412</citation>
+    </citations>
+</tool>
