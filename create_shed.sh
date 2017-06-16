@@ -1,5 +1,5 @@
-planemo shed_init --name=geneontology \
+planemo shed_init --name=biolink_monarch \
                     --owner=nathandunn \
-                    --description="Enriches Related biological data using ontology driven data." \
-                    --long_description="Tool Suite that Pulls related Variants, Phenotypes, Diseases, Genes, and Homologes using the BioLink API" \
+                    --description="Query Monarch Initiative using BioLink API." \
+                    --long_description="Tool Suite that Pulls related Variants, Phenotypes, Diseases, Genes, and Homologes using the Monarch Initiative's (monarchinitiative.org) BioLink API (https://api.monarchinitiative.org/api/))" \
                     --category="Web Services"
