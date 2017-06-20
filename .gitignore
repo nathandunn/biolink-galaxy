@@ -102,3 +102,6 @@ ENV/
 .idea
 
 *.swp
+.monarch-genes-for-diseases.xml.swp
+tool_test_output.html
+tool_test_output.json
