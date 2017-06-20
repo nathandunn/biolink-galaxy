@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 planemo shed_init --name=biolink_monarch \
                     --owner=nathandunn \
                     --description="Query Monarch Initiative using BioLink API." \
